@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatingEditText">
+        <attr name="fet_hint_scale" format="float" />
+        <attr name="fet_color" format="color" />
+        <attr name="fet_highlighted_color" format="color" />
+        <attr name="fet_highlighted_line_color" format="color" />
+        <attr name="fet_error_color" format="color" />
+        <attr name="fet_error_line_color" format="color" />
+        <attr name="fet_error_label_color" format="color" />
+        <attr name="fet_error_message_color" format="color" />
+        <attr name="fet_underline_height" format="dimension" />
+        <attr name="fet_underline_highlighted_height" format="dimension" />
+        <attr name="fet_showOnlyErrorWithErrorColor" format="boolean" />
+        <attr name="fet_enableLabelDisappearanceOnTextInput" format="boolean" />
+        <attr name="fet_labelAlwaysHighlightColor" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="elementSpacing" format="dimension" />
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="flowDirection" format="enum">
+            <enum name="leftToRight" value="0" />
+            <enum name="topDown" value="1" />
+            <enum name="rightToLeft" value="2" />
+            <enum name="bottomUp" value="3" />
+        </attr>
+        <attr name="android:maxLines" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_Layout">
+        <attr name="layout_breakLine" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ViewMoreTextView">
+        <attr name="minLineLimit" format="integer" />
+        <attr name="maxLineLimit" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="LimitingScrollView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" format="boolean" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="UnderlineTextView">
+        <attr name="underline_height" format="dimension" />
+        <attr name="underline_heightLeft" format="dimension" />
+        <attr name="underline_heightTop" format="dimension" />
+        <attr name="underline_heightRight" format="dimension" />
+        <attr name="underline_heightBottom" format="dimension" />
+
+        <attr name="underline_color" format="color" />
+        <attr name="underline_colorLeft" format="color" />
+        <attr name="underline_colorTop" format="color" />
+        <attr name="underline_colorRight" format="color" />
+        <attr name="underline_colorBottom" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="VoteUpDownPanel">
+        <attr name="udp_show_counters" format="boolean" />
+    </declare-styleable>
+
+</resources>

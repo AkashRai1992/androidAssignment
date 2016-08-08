@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#f3f2f2</color>
+    <color name="theme_primary">#179ca2</color>
+    <color name="theme_primary_light">#177f7f</color>
+    <color name="theme_primary_dark">#072146</color>
+    <color name="theme_primary_dark_1">#00576b</color>
+    <color name="theme_accent_1">#6dc8c9</color>
+    <color name="theme_accent_2">#acc9c5</color>
+    <color name="theme_accent_3">#22acc9c5</color>
+    <color name="theme_accent_1_light">#4cc1c0</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="body_text_1">#5d5d5d</color>
+    <color name="body_text_2">#5e5e5e</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_4">#5e5e5e</color>
+    <color name="body_text_disabled">#44000000</color>
+    <color name="input_field_normal_bottom_border">#555e5e5e</color>
+
+    <color name="white">#fff</color>
+    <color name="input_field_error_color">#e6ff5232</color>
+    <color name="default_title_indicator_footer_color">#ffffff</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_circle_indicator_fill_color">#FFF</color>
+    <color name="default_circle_indicator_page_color">#000</color>
+    <color name="default_circle_indicator_stroke_color">#179ca2</color>
+    <color name="hamburger_bg_header_selected_color">#ffb2f4f4</color>
+    <color name="darkgray">#d3d3d3</color>
+    <color name="grey_toolbar">#848185</color>
+
+    <color name="answer_options_panel">#F6F7F7</color>-->
+    <color name="signup_option_background">#F3F2F2</color>
+</resources>
